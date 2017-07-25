@@ -11,7 +11,7 @@ We attempt to classify books using Titles only. The number of genres are 32. The
 
 **_Glove RNN and LSTM.ipynb_**, instead, applies Deep Learning concepts including Recurrent Neural Networks(RNN) and Long Short Term Memory(LSTM).
 
-A live working demo hosted using [Heroku](https://heroku.com) is available [here](https://book-genre-classification.herokuapp.com). This webapp uses the pre-saved Logistic Regression model for inference.  
+A live demo hosted using [Heroku](https://heroku.com) is available [here](https://book-genre-classification.herokuapp.com). This webapp uses the pre-saved Logistic Regression model for inference.  
 
 ### Install 
 
