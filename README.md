@@ -3,13 +3,13 @@
 
 ### About 
 
-We attempt to classify books using Titles only. The number of genres are 32. The notebooks focus on achieving this task using different Machine Learning and Deep Learning techniques. 
+We attempt to classify books using Titles only. The total number of genres for the books to be classified into is 32. The notebooks focus on achieving this task using different Machine Learning and Deep Learning techniques. 
 
 **_Basic.ipynb_** does a very simple exploration and uses a basic feed forward network.
 
-**_Best.ipynb_** uses sklearn's Logistic Regression, Multinominal NaiveBayes, Multi Layer Perceptron and XGBoost.
+**_Best.ipynb_** uses Logistic Regression, Multinominal NaiveBayes, Multi Layer Perceptron and XGBoost.
 
-**_Glove RNN and LSTM.ipynb_**, instead, applies Deep Learning concepts including Recurrent Neural Networks(RNN) and Long Short Term Memory(LSTM).
+**_Glove RNN and LSTM.ipynb_** applies Deep Learning concepts including Recurrent Neural Networks(RNN) and Long Short Term Memory(LSTM).
 
 A live demo hosted using [Heroku](https://heroku.com) is available [here](https://book-genre-classification.herokuapp.com). This webapp uses the pre-saved Logistic Regression model for inference.  
 
