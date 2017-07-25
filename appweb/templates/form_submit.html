@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Book Genre Classification</title>
+        <script type="text/javascript">
+            var name = document.getElementById("book").value;           
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="content">
+                <form method="post" action="{{ url_for('predict') }}">
+                  <label for="book">Please enter your Book Title: Now</label>
+                  <br>
+                  <textarea placeholder="Your Book Title" name="book" cols="40" rows="5" id ="book"></textarea/>
+                  <br>
+                  <input type="submit" value="Get Genre"/>
+                </form>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
