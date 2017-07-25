@@ -1,18 +1,47 @@
-# Book Dataset - Task 2
+# Book Genre Classification
+ 
 
-[Top](/../../)
 
-[Results](/../../docs/results.md)
 
-## Task 2: Data Mining (Book32)
 
-This task is to explore the entire book database. There are 137,788 books in 32 classes. This dataset contains book cover images, title, author, and subcategories for each respective book.
+### Install 
 
-#### File Structure
+This project requires **Python 3** and the following Python libraries installed:
 
->book32-listing.csv
+- [sklearn](http://scikit-learn.com/)
+- [Tensorflow](http://tensorflow.org/)
+- [pandas](pandas.pydata.org/)
+- [Numpy](http://numpy.org/)
+- [Scipy](http://scipy.org/)
+- [Matplotlib](https://matplotlib.org/) 
+- [tflearn](https://tflearn.org/)
 
-Dataset with all attributes including image URL, title, author, and category.
+
+
+You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
+
+You could just install [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. 
+
+
+### Run
+
+In a terminal or command window, navigate to the top-level project directory  (that contains this README) and run one of the following commands (For example to run Basic.ipynb):
+
+
+```bash
+ipython notebook Basic.ipynb
+```  
+or
+```bash
+jupyter notebook Basic.ipynb
+```
+
+This will open the Jupyter Notebook software and project file in your browser.
+
+
+### Dataset
+
+This dataset contains book cover images, title, author, and subcategories for each respective book.
 
 Format:
 ```
@@ -24,8 +53,6 @@ Example:
 "1588345297","1588345297.jpg","http://ecx.images-amazon.com/images/I/51l6XIoa3rL.jpg","With Schwarzkopf: Life Lessons of The Bear","Gus Lee","1","Biographies & Memoirs"
 "1404803335","1404803335.jpg","http://ecx.images-amazon.com/images/I/51UJnL3Tx6L.jpg","Magnets: Pulling Together, Pushing Apart (Amazing Science)","Natalie M. Rosinsky","4","Children's Books"
 ```
-
-#### Category ID
 
 32 classes
 
