@@ -1,8 +1,17 @@
 # Book Genre Classification
  
 
+### About 
 
+We attempt to classify books using Titles only. The number of genres are 32. The notebooks focus on achieving this task using different Machine Learning and Deep Learning techniques. 
 
+Basic.ipynb does a very simple exploration and uses a basic feed forward network.
+
+Best.ipynb uses sklearn's Logistic Regression, Multinominal NaiveBayes, Multi Layer Perceptron and XGBoost.
+
+Glove RNN and LSTM, instead, applies Deep Learning.
+
+A live working demo hosted using [Heroku](https://heroku.com) is available [here](https://book-genre-classification.herokuapp.com). This webapp uses the pre-saved Logistic Regression model for inference.  
 
 ### Install 
 
@@ -37,6 +46,21 @@ jupyter notebook Basic.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your browser.
+
+
+To deploy the live working [demo](https://book-genre-classification.herokuapp.com), first clone the repo. Make sure you have a Heroku account.Then follow the following commands:
+
+```bash
+cd appweb
+heroku login
+git init
+git add .
+git commit -m "done"
+heroku create    		### create heroku remote
+git remote -v 
+heroku git:remote -a <your-app-name(as created by heroku)>
+git push heroku master
+``` 
 
 
 ### Dataset
