@@ -3,7 +3,7 @@
 
 ### About 
 
-We attempt to classify books using Titles only. The total number of genres for the books to be classified into is 32. The notebooks focus on achieving this task using different Machine Learning and Deep Learning techniques. 
+This project was a part of Spikeway Technologies AI Lab(SAIL) and discusses the classification of books based title, without prior knowledge or context of author and origin. The total number of genres for the books to be classified into is 32. The notebooks focus on achieving this task using different Machine Learning and Deep Learning techniques. 
 
 **_Basic.ipynb_** does a very simple exploration and uses a basic feed forward network.
 
