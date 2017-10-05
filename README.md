@@ -5,11 +5,11 @@
 
 This project was a part of Spikeway Technologies AI Lab(SAIL) and discusses the classification of books based only on title, without prior knowledge or context of author and origin. The total number of genres for the books to be classified into is 32. The notebooks focus on achieving this task using different Machine Learning and Deep Learning techniques. 
 
-**_Basic.ipynb_** does a very simple exploration and uses a basic feed forward network.
+**_Basic_Bag_of_Words_model.ipynb_** does a very simple exploration and uses a basic feed forward network.
 
-**_Best.ipynb_** uses Logistic Regression, Multinominal NaiveBayes, Multi Layer Perceptron and XGBoost.
+**_Best_TFIDF-Vectorizer_model.ipynb_** uses Logistic Regression, Multinominal NaiveBayes, Multi Layer Perceptron and XGBoost.
 
-**_Glove RNN and LSTM.ipynb_** applies Deep Learning concepts including Recurrent Neural Networks(RNN) and Long Short Term Memory(LSTM).
+**_RNN_LSTM_using_Glove_vectors.ipynb_** uses Deep Learning concepts such as Recurrent Neural Networks(RNN) and Long Short Term Memory(LSTM).
 
 A live demo hosted using [Heroku](https://heroku.com) is available [here](https://book-genre-classification.herokuapp.com). This webapp uses the pre-saved Logistic Regression model for inference.  
 
@@ -38,11 +38,11 @@ In a terminal or command window, navigate to the top-level project directory  (t
 
 
 ```bash
-ipython notebook Basic.ipynb
+ipython notebook Best_TFIDF-Vectorizer_model.ipynb
 ```  
 or
 ```bash
-jupyter notebook Basic.ipynb
+jupyter notebook Best_TFIDF-Vectorizer_model.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your browser.
@@ -78,9 +78,7 @@ Example:
 "1404803335","1404803335.jpg","http://ecx.images-amazon.com/images/I/51UJnL3Tx6L.jpg","Magnets: Pulling Together, Pushing Apart (Amazing Science)","Natalie M. Rosinsky","4","Children's Books"
 ```
 
-32 classes
-
-207,572 Total
+32 Genres, 207,572 Books
 
 |Label|Category Name|Size|
 |---|---|---|
