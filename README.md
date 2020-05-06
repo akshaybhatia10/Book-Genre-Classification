@@ -65,7 +65,7 @@ git push heroku master
 
 ### Dataset
 
-The dataset for the project has been borrowed from [Judging a Book by its Cover](https://arxiv.org/abs/1610.09204)and can be accessed at [book-dataset](https://github.com/uchidalab/book-dataset)
+The dataset for the project has been borrowed from [Judging a Book by its Cover](https://arxiv.org/abs/1610.09204) and can be accessed at [book-dataset](https://github.com/uchidalab/book-dataset)
 
 ```
 B. K. Iwana, S. T. Raza Rizvi, S. Ahmed, A. Dengel, and S. Uchida, "Judging a Book by its Cover," arXiv preprint arXiv:1610.09204 (2016).
