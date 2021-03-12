@@ -27,7 +27,7 @@ colorama==0.3.7
 conda==4.3.16
 configobj==5.0.6
 contextlib2==0.5.4
-cryptography==1.7.1
+cryptography==3.2
 cycler==0.10.0
 Cython==0.25.2
 cytoolz==0.8.2
