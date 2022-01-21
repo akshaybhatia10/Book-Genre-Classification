@@ -52,7 +52,7 @@ HeapDict==1.0.0
 idna==2.5
 imagesize==0.7.1
 ipykernel==4.5.2
-ipython==5.1.0
+ipython==7.16.3
 ipython-genutils==0.1.0
 ipywidgets==5.2.2
 isort==4.2.5
